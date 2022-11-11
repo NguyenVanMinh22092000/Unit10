@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>For_In</title>
+</head>
+<body>
+    <p id="goods"></p>
+  <script>
+      let infor = '';
+    var person = { name: 'Minh', age: '22', job: 'English teacher'}
+    for (var p in person) {
+        infor +=`${p} is ${person[p]} <br>`
+    }
+    document.getElementById("goods").innerHTML = infor;
+  </script>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multiplication Table 6</title>
+</head>
+<body>
+  <p name="result"></p>
+  <script>
+    let out = '';
+    for (let i = 1, j = 10; i <= 10; i++, j--) {
+      var product = i*j;
+      out = out + i + 'x' + j + '=' + product + "</br>";
+        console.log(out);
+      // document.write(out)
+    }
+    document.getElementsByClassName('result')[0].innerHTML = out;
+
+  </script>
+</body>
+</html>
+
+// CHƯA LÀM ĐƯỢC NHÉ
